@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Form</title>
+    <title>Two Sections</title>
     <link rel="stylesheet" href="myweb.css">
 </head>
 <body>
-    <div class="signup-container">
-        <h2>Signup Form</h2>
-        <form action="/submit_signup" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-
-            <button type="submit" value="Sign Up"> Sign Up </button>
-        </form>
+    <div class="section" id="section1">
+        <div class="profile-image">
+            <img src="../down.jpg">
+        </div>
+        <div id="email">
+            Contact to: 
+            <a href="mailto:small0753@daum.net">small0753@daum.net</a>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <h1>Section 2</h1>
+        <p>This is the content of section 2.</p>
     </div>
 </body>
 </html>
