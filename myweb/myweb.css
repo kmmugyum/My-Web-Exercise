@@ -4,29 +4,38 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
 }
+
 .section {
     flex: 1;
     color: white;
-    height: 100vh; /* 화면 전체 높이를 차지하도록 설정 */
+    height: 100vh;
+    /* 화면 전체 높이를 차지하도록 설정 */
     text-align: center;
     overflow: hidden;
 }
+
 #section1 {
     flex: 3;
     color: #000000;
     background-color: #acacac;
 }
+
 #section2 {
     flex: 8;
     background-color: #000000;
 }
 
 .profile-image {
-    width: 220px; /* 이미지의 너비 */
-    height: 220px; /* 이미지의 높이 */
-    border-radius: 50%; /* 50%로 설정하여 원 모양으로 만듦 */
-    margin: 10px auto 20px; /* 위, 아래 여백은 10px, 좌우 여백은 자동으로 설정 */
-    overflow: hidden; /* 모양을 원으로 만들기 위해 이미지를 넘치는 부분을 숨김 */
+    width: 220px;
+    /* 이미지의 너비 */
+    height: 220px;
+    /* 이미지의 높이 */
+    border-radius: 50%;
+    /* 50%로 설정하여 원 모양으로 만듦 */
+    margin: 10px auto 20px;
+    /* 위, 아래 여백은 10px, 좌우 여백은 자동으로 설정 */
+    overflow: hidden;
+    /* 모양을 원으로 만들기 위해 이미지를 넘치는 부분을 숨김 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,10 +43,14 @@ body {
 
 
 .profile-image img {
-    width: 100%; /* 부모 요소의 크기에 맞게 이미지 크기 조정 */
-    height: 100%; /* 이미지의 높이 자동 조정 */
-    display: block; /* 이미지를 블록 레벨 요소로 만들어 가운데 정렬 */
-    margin: 0 auto; /* 수평 가운데 정렬 */
+    width: 100%;
+    /* 부모 요소의 크기에 맞게 이미지 크기 조정 */
+    height: 100%;
+    /* 이미지의 높이 자동 조정 */
+    display: block;
+    /* 이미지를 블록 레벨 요소로 만들어 가운데 정렬 */
+    margin: 0 auto;
+    /* 수평 가운데 정렬 */
 }
 
 .info {

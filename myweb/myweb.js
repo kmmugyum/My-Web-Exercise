@@ -1,15 +1,15 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const addProjectButton = document.getElementById('add-project-button');
     const projectForm = document.getElementById('project-form');
     const saveProjectButton = document.getElementById('save-project-button');
     const projectList = document.getElementById('project-list');
 
-    addProjectButton.addEventListener('click', function() {
+    addProjectButton.addEventListener('click', function () {
         projectForm.style.display = 'block';
         console.log("block displayed");
     });
 
-    saveProjectButton.addEventListener('click', function() {
+    saveProjectButton.addEventListener('click', function () {
         const projectTitle = document.getElementById('project-title').value;
         const projectDescription = document.getElementById('project-description').value;
 
