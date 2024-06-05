@@ -1,18 +1,4 @@
-/*selector {
-    property: value;
-}*/
-
-.container {
-    background-color: yellow;
-}
-
-div {
-    width: 80px;
-    height: 80px;
-    margin: 20px;
-    background-color: red;
-}
-
-.box{
-    background-color: blue;
+.container{
+    background: beige;
+    height: 100vh;
 }
