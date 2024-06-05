@@ -1,0 +1,11 @@
+/*selector {
+    property: value;
+}*/
+
+*{
+    color: green;
+}
+
+li {
+    color: blue;
+}
