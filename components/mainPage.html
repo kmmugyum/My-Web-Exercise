@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>동행복권 번호 추첨</title>
+        <script defer src="../js/mainPage.js"></script>
+    </head>
+    <body>
+        <label for='countRaffle' id="countInputLabel">몇 번 추첨하시겠습니까?
+            <input type="number" name="nth" id="countRaffle">
+            <button id="countCheckButton">확인</button>
+        </label>
+
+        <button id="allRiffle" style="display: none">
+            일괄 추첨 시작
+        </button>
+
+        <div id="articleContainer">
+            <article>
+                <div id='1stRaffle'>
+                    <h1>1번째 복권</h1>
+                    <span id="1st">1</span>
+                    <span id="'2nd">2</span>
+                    <span id="'3rd">3</span>
+                    <span id="4th">4</span>
+                    <span id='5th'>5</span>
+                    <span id="6th">6</span>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>
